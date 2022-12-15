@@ -103,7 +103,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,90,213,0.667401994
   z-index: 99999;
 }
 .navbar .navbar-brand {
-  font-family: 'Lobster', cursive;
+  font-family: 'Magneto', cursive;
   font-size: 2.5rem;
 }
 .navbar .navbar-toggler {
