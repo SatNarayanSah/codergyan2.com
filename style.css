@@ -4,8 +4,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Arial Unicode MS', serif;
+  font-size: 2.5rem;
   font-weight: 400;
   margin-top: 20px;
 }
@@ -104,7 +104,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,90,213,0.667401994
 }
 .navbar .navbar-brand {
   font-family: 'Magneto', cursive;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .navbar .navbar-toggler {
   position: relative;
@@ -153,11 +153,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,90,213,0.667401994
 }
 .navbar-dark .navbar-nav .nav-link {
   position: relative;
-  color: #fff;
-  font-size: 1.6rem;
+  color: rgb(247, 242, 242);
+  font-size: 2rem;
+  word-spacing: 10px;
 }
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
+  color: rgb(209, 48, 48);
 }
 .navbar .dropdown-menu {
   padding: 0;
@@ -166,7 +167,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,90,213,0.667401994
 .navbar .dropdown-menu .dropdown-item {
   position: relative;
   padding: 10px 20px;
-  color: #fff;
+  color: rgb(119, 52, 52);
   font-size: 1.4rem;
   border-bottom: 1px solid rgba(255, 255, 255, .1);
   transition: color 0.2s ease-in;
@@ -179,7 +180,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,90,213,0.667401994
   color: #c0ca33;
 }
 .navbar .dropdown-menu .dropdown-item::before {
-  content: '';
+  content:inherit;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -378,7 +379,7 @@ a.card {
   border-radius: 50% !important;
 }
 .bg-white {
-  background-color: #fff !important;
+  background-color: rgba(147, 68, 215, 0.414) !important;
 }
 
 .ml-auto, .mx-auto {
@@ -412,7 +413,7 @@ p, .p {
 .card-title {
   margin: 0;
   font-family: "Montserrat",sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 900;
 }
 
