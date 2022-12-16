@@ -105,6 +105,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,90,213,0.667401994
 .navbar .navbar-brand {
   font-family: 'Magneto', cursive;
   font-size: 3rem;
+  color: #F7D605;
 }
 .navbar .navbar-toggler {
   position: relative;
